@@ -94,7 +94,7 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'SpySpidey') # owner username without @
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002243746308')) #Log channel id ( make sure bot is admin )
-DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002243746308'))
+DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1001843142830'))
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )

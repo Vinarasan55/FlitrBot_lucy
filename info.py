@@ -28,7 +28,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '9747098'))
 API_HASH = environ.get('API_HASH', '15384775587d976eccc8b367e92a96a3')
 OWNER_ID = environ.get('OWNER_ID', '1287471711')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6163005421:AAGXiFGyVvoc1gSmmdZ5KckUQLXpAiYyeAk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5839160503:AAEO0hhB5-JgDl2HM-K4yqLWLTxBaY_ikzc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -70,8 +70,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://FoxyFileStore:FoxyFileStore@foxyfilestore.jsvmihn.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "FoxyFileStore")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SATHEESHVIN2244:SATHEESHVIN2244@cluster0.aba4w1w.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
@@ -101,7 +101,7 @@ VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( Fa
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'http://telegram.me/How_To_Download_URL/94') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '9672acfd41f4778f06adb1c63d6a241f0c546954')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
